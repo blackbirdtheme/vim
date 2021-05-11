@@ -9,28 +9,28 @@ syntax reset
 endif
 
 set t_Co=256
-let g:colors_name = "blackbird"
-
+let g:colors_name = 'blackbird'
 
 " Define reusable colorvariables.
-let s:bg="#000000"
-let s:fg="#fdf7cd"
-let s:fg2="#e9e3bd"
-let s:fg3="#d5cfac"
-let s:fg4="#c0bc9c"
-let s:bg2="#141414"
-let s:bg3="#292929"
-let s:bg4="#3d3d3d"
-let s:keyword="#e92741"
-let s:builtin="#3EC841"
-let s:const= "#fdf7cd"
-let s:comment="#222029"
-let s:func="#3EC841"
-let s:str="#E1DB3F"
-let s:type="#00ecd8"
-let s:var="#fdf7cd"
-let s:warning="#ff0000"
-let s:warning2="#fbff00"
+let s:bg='#000000'
+let s:fg='#fdf7cd'
+let s:fg2='#e9e3bd'
+let s:fg3='#d5cfac'
+let s:fg4='#c0bc9c'
+let s:bg2='#141414'
+let s:bg3='#292929'
+let s:bg4='#3d3d3d'
+let s:keyword='#e92741'
+let s:builtin='#3EC841'
+let s:const= '#fdf7cd'
+let s:comment='#222029'
+let s:func='#3EC841'
+let s:str='#E1DB3F'
+let s:type='#00ecd8'
+let s:var='#fdf7cd'
+let s:warning='#ff0000'
+let s:warning2='#fbff00'
+let s:number="#418EDD"
 
 exe 'hi Normal guifg='s:fg' guibg='s:bg
 exe 'hi Cursor guifg='s:bg' guibg='s:fg
@@ -39,9 +39,9 @@ exe 'hi CursorLineNr guifg='s:str' guibg='s:bg
 exe 'hi CursorColumn  guibg='s:bg2
 exe 'hi ColorColumn  guibg='s:bg2
 exe 'hi LineNr guifg='s:fg2' guibg='s:bg2
-exe 'hi VertSplit guifg='s:fg3' guibg='s:bg3
+exe 'hi VertSplit guifg='s:fg3' guibg='s:bg
 exe 'hi MatchParen guifg='s:warning2'  gui=underline'
-exe 'hi StatusLine guifg='s:fg2' guibg='s:bg3' gui=bold'
+exe 'hi StatusLine guifg='s:fg2' guibg='s:bg2' gui=bold'
 exe 'hi Pmenu guifg='s:fg' guibg='s:bg2
 exe 'hi PmenuSel  guibg='s:bg3
 exe 'hi IncSearch guifg='s:bg' guibg='s:keyword
@@ -49,6 +49,7 @@ exe 'hi Search   gui=underline'
 exe 'hi Directory guifg='s:const
 exe 'hi Folded guifg='s:fg4' guibg='s:bg
 exe 'hi WildMenu guifg='s:str' guibg='s:bg
+exe 'hi nonText guibg='s:bg
 
 exe 'hi Boolean guifg='s:const
 exe 'hi Character guifg='s:const
@@ -57,19 +58,19 @@ exe 'hi Conditional guifg='s:keyword
 exe 'hi Constant guifg='s:const
 exe 'hi Todo guibg='s:bg
 exe 'hi Define guifg='s:keyword
-exe 'hi DiffAdd guifg=#fafafa guibg=#123d0f gui=bold'
+exe 'hi DiffAdd guifg=#fafafa guibg='s:func ' gui=bold'
 exe 'hi DiffDelete guibg='s:bg2
 exe 'hi DiffChange  guibg=#151b3c guifg=#fafafa'
-exe 'hi DiffText guifg=#ffffff guibg=#ff0000 gui=bold'
+exe 'hi DiffText guifg=#ffffff guibg='s:keyword ' gui=bold'
 exe 'hi ErrorMsg guifg='s:warning' guibg='s:bg2' gui=bold'
 exe 'hi WarningMsg guifg='s:fg' guibg='s:warning2
-exe 'hi Float guifg='s:const
+exe 'hi Float guifg='s:number
 exe 'hi Function guifg='s:func
 exe 'hi Identifier guifg='s:type'  gui=italic'
-exe 'hi Keyword guifg='s:keyword'  gui=bold'
+exe 'hi Keyword guifg='s:keyword'  gui=italic'
 exe 'hi Label guifg='s:var
 exe 'hi NonText guifg='s:bg4' guibg='s:bg2
-exe 'hi Number guifg='s:const
+exe 'hi Number guifg='s:number
 exe 'hi Operator guifg='s:keyword
 exe 'hi PreProc guifg='s:keyword
 exe 'hi Special guifg='s:fg
@@ -82,6 +83,7 @@ exe 'hi Title guifg='s:fg'  gui=bold'
 exe 'hi Todo guifg='s:fg2'  gui=inverse,bold'
 exe 'hi Type guifg='s:type
 exe 'hi Underlined   gui=underline'
+exe 'hi SignColumn guibg=NONE guifg='s:fg
 
 " Neovim Terminal Mode
 let g:terminal_color_0 = s:bg
