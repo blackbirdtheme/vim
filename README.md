@@ -21,3 +21,7 @@ colorscheme blackbird
 ## 📷 Example
 
 ![example](./images/example.jpg)
+
+## 🌃 Other Implementations
+
+- [Visual Studio Code Theme](https://github.com/Matt-Gleich/blackbird)
