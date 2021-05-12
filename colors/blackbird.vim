@@ -120,3 +120,6 @@ hi rustDeriveTrait guifg=#536991 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermb
 
 " go
 hi goFunctionCall guifg=#3ec840 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
+
+" java
+hi javaExternal guifg=#e92741 guibg=NONE guisp=NONE gui=italic ctermfg=160 ctermbg=NONE cterm=italic
