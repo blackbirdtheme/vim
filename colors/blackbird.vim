@@ -108,9 +108,17 @@ hi NERDTreeDirSlash guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 cte
 
 " latex
 hi texBeginEndName guifg=#00ecd8 guibg=NONE guisp=NONE gui=italic ctermfg=50 ctermbg=NONE cterm=italic
+hi texEnvArgName guifg=#00ecd8 guibg=NONE guisp=NONE gui=italic ctermfg=50 ctermbg=NONE cterm=italic
 hi texBeginEnd guifg=#3ec840 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
 hi texMathZoneX guifg=#418fdd guibg=NONE guisp=NONE gui=NONE ctermfg=68 ctermbg=NONE cterm=NONE
 hi texMathZoneW guifg=#418fdd guibg=NONE guisp=NONE gui=NONE ctermfg=68 ctermbg=NONE cterm=NONE
+hi texCmd guifg=#3ec840 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
+hi texCmdNewcmd guifg=#00ecd8 guibg=NONE guisp=NONE gui=italic ctermfg=50 ctermbg=NONE cterm=italic
+hi texCmdClass guifg=#e92741 guibg=NONE guisp=NONE gui=italic ctermfg=160 ctermbg=NONE cterm=italic
+hi texCmdPackage guifg=#e92741 guibg=NONE guisp=NONE gui=italic ctermfg=160 ctermbg=NONE cterm=italic
+hi texTabularChar guifg=#e92741 guibg=NONE guisp=NONE gui=NONE ctermfg=160 ctermbg=NONE cterm=NONE
+hi texFilesArg guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
+hi texArg guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
 
 " rust
 hi rustModPath guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
