@@ -33,10 +33,10 @@ hi Typedef guifg=#e92741 guibg=NONE guisp=NONE gui=italic ctermfg=60 ctermbg=NON
 hi Title guifg=#fdf7cd guibg=NONE guisp=NONE gui=bold ctermfg=230 ctermbg=NONE cterm=bold
 hi Folded guifg=#192224 guibg=#A1A6A8 guisp=#A1A6A8 gui=italic ctermfg=235 ctermbg=248 cterm=NONE
 hi PreCondit guifg=#3ec840 guibg=NONE guisp=NONE gui=NONE ctermfg=77 ctermbg=NONE cterm=NONE
-hi Include guifg=#BD9800 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
+hi Include guifg=#e92741 guibg=NONE guisp=NONE gui=bold ctermfg=1 ctermbg=NONE cterm=bold
 hi TabLineSel guifg=#000000 guibg=#3ec840 guisp=#3ec840 gui=bold ctermfg=NONE ctermbg=77 cterm=bold
 hi StatusLineNC guifg=#5597a3 guibg=#1a1a1a guisp=#1a1a1a gui=bold ctermfg=73 ctermbg=234 cterm=bold
-hi NonText guifg=#3ec840 guibg=NONE guisp=NONE gui=italic ctermfg=77 ctermbg=NONE cterm=NONE
+hi NonText guifg=#192224 guibg=NONE guisp=NONE gui=NONE ctermfg=235 ctermbg=60 cterm=NONE
 hi DiffText guifg=#000000 guibg=#ff9900 guisp=#ff9900 gui=NONE ctermfg=NONE ctermbg=208 cterm=NONE
 hi ErrorMsg guifg=#F9F9F9 guibg=#e92741 guisp=#e92741 gui=NONE ctermfg=248 ctermbg=88 cterm=NONE
 hi Debug guifg=#BD9800 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
@@ -61,6 +61,7 @@ hi Float guifg=#418fdd guibg=NONE guisp=NONE gui=NONE ctermfg=68 ctermbg=NONE ct
 hi Number guifg=#418fdd guibg=NONE guisp=NONE gui=NONE ctermfg=68 ctermbg=NONE cterm=NONE
 hi Boolean guifg=#ff9900 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi Operator guifg=#e92741 guibg=NONE guisp=NONE gui=bold ctermfg=160 ctermbg=NONE cterm=bold
+hi Title guifg=#e92741 guibg=NONE guisp=NONE gui=bold ctermfg=160 ctermbg=NONE cterm=bold
 hi CursorLine guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
 hi TabLineFill guifg=#192224 guibg=#1a1a1a guisp=#1a1a1a gui=bold ctermfg=235 ctermbg=234 cterm=bold
 hi Question guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
@@ -99,7 +100,7 @@ hi Macro guifg=#3ec840 guibg=NONE guisp=NONE gui=bold ctermfg=77 ctermbg=NONE ct
 hi Underlined guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermfg=189 ctermbg=235 cterm=underline
 hi DiffAdd guifg=#000000 guibg=#3ec840 guisp=#3ec840 gui=NONE ctermfg=NONE ctermbg=77 cterm=NONE
 hi TabLine guifg=#fdf7cd guibg=#222029 guisp=#222029 gui=bold ctermfg=230 ctermbg=235 cterm=bold
-hi cursorim guifg=#192224 guibg=#536991 guisp=#536991 gui=NONE ctermfg=235 ctermbg=60 cterm=NONE
+hi CursorLineNR guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
 
 " plugin specific
 hi StartifyFile guifg=#3ec840 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
@@ -144,3 +145,12 @@ hi typescriptBraces guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 cte
 hi typescriptCall guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
 hi jsxBraces guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
 hi typescriptImport guifg=#e92741 guibg=NONE guisp=NONE gui=italic ctermfg=160 ctermbg=NONE cterm=italic
+
+" vim
+hi vimHiGroup guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
+
+" airblade/vim-gitgutter
+hi GitGutterAdd guifg=#3ec840 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
+hi GitGutterChange guifg=#e1dc3f guibg=NONE guisp=NONE gui=NONE ctermfg=185 ctermbg=NONE cterm=NONE
+hi GitGutterDelete guifg=#e92741 guibg=NONE guisp=NONE gui=italic ctermfg=160 ctermbg=NONE cterm=italic
+
