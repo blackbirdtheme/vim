@@ -123,6 +123,7 @@ hi texCmdItem guifg=#e92741 guibg=NONE guisp=NONE gui=italic ctermfg=160 ctermbg
 hi texFilesArg guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
 hi texArg guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
 hi texPartArgTitle guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
+hi texTitleArg guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
 
 " rust
 hi rustModPath guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
@@ -148,9 +149,11 @@ hi typescriptImport guifg=#e92741 guibg=NONE guisp=NONE gui=italic ctermfg=160 c
 
 " vim
 hi vimHiGroup guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
+hi vimOption guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
+hi vimCommand guifg=#3ec840 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
+hi vimLet guifg=#00ecd8 guibg=NONE guisp=NONE gui=italic ctermfg=50 ctermbg=NONE cterm=italic
 
 " airblade/vim-gitgutter
 hi GitGutterAdd guifg=#3ec840 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
 hi GitGutterChange guifg=#e1dc3f guibg=NONE guisp=NONE gui=NONE ctermfg=185 ctermbg=NONE cterm=NONE
 hi GitGutterDelete guifg=#e92741 guibg=NONE guisp=NONE gui=italic ctermfg=160 ctermbg=NONE cterm=italic
-
