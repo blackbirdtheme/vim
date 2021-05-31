@@ -28,4 +28,5 @@ For improved syntax highlighting I highly recommend that you use the [vim-polygo
 
 ## 🌃 Other Implementations
 
-- [Visual Studio Code Theme](https://github.com/blackbirdtheme/blackbird)
+- [Visual Studio Code Theme](https://github.com/blackbirdtheme/vscode)
+- [Terminals](https://github.com/blackbirdtheme/terminals)
