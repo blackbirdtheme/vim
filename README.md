@@ -1,6 +1,6 @@
 <img src="./images/title.png" width="400">
 
-# blackbird.vim
+# vim
 
 🏴 blackbird theme for vim
 
@@ -9,7 +9,7 @@
 You can install using [vim-plug](https://github.com/junegunn/vim-plug):
 
 ```vim
-Plug 'Matt-Gleich/blackbird.vim'
+Plug 'blackbirdtheme/blackbird.vim'
 ```
 
 Once you have it installed just set it as your theme:
@@ -28,4 +28,4 @@ For improved syntax highlighting I highly recommend that you use the [vim-polygo
 
 ## 🌃 Other Implementations
 
-- [Visual Studio Code Theme](https://github.com/Matt-Gleich/blackbird)
+- [Visual Studio Code Theme](https://github.com/blackbirdtheme/blackbird)
