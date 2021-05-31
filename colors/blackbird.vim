@@ -31,9 +31,10 @@ hi SignColumn guifg=#192224 guibg=NONE guisp=NONE gui=NONE ctermfg=235 ctermbg=6
 hi SpecialComment guifg=#536991 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
 hi Typedef guifg=#e92741 guibg=NONE guisp=NONE gui=italic ctermfg=60 ctermbg=NONE cterm=italic
 hi Title guifg=#fdf7cd guibg=NONE guisp=NONE gui=bold ctermfg=230 ctermbg=NONE cterm=bold
+hi StatusLineMode guifg=#000000 guibg=#3ec840 guisp=#3ec840 gui=italic ctermfg=NONE ctermbg=77 cterm=italic
 hi Folded guifg=#192224 guibg=#A1A6A8 guisp=#A1A6A8 gui=italic ctermfg=235 ctermbg=248 cterm=NONE
 hi PreCondit guifg=#3ec840 guibg=NONE guisp=NONE gui=NONE ctermfg=77 ctermbg=NONE cterm=NONE
-hi Include guifg=#e92741 guibg=NONE guisp=NONE gui=bold ctermfg=1 ctermbg=NONE cterm=bold
+hi Include guifg=#e92741 guibg=NONE guisp=NONE gui=italic ctermfg=1 ctermbg=NONE cterm=italic
 hi TabLineSel guifg=#000000 guibg=#3ec840 guisp=#3ec840 gui=bold ctermfg=NONE ctermbg=77 cterm=bold
 hi StatusLineNC guifg=#5597a3 guibg=#1a1a1a guisp=#1a1a1a gui=bold ctermfg=73 ctermbg=234 cterm=bold
 hi NonText guifg=#192224 guibg=NONE guisp=NONE gui=NONE ctermfg=235 ctermbg=60 cterm=NONE
@@ -49,6 +50,7 @@ hi Todo guifg=#000000 guibg=#ff9900 guisp=#ff9900 gui=NONE ctermfg=NONE ctermbg=
 hi Special guifg=#00ecd8 guibg=NONE guisp=NONE gui=NONE ctermfg=50 ctermbg=NONE cterm=NONE
 hi LineNr guifg=#343c50 guibg=NONE guisp=NONE gui=NONE ctermfg=239 ctermbg=NONE cterm=NONE
 hi StatusLine guifg=#fdf7cd guibg=#141414 guisp=#141414 gui=bold ctermfg=230 ctermbg=234 cterm=bold
+hi StatusLineFile guifg=#fdf7cd guibg=#141414 guisp=#141414 gui=italic,bold ctermfg=230 ctermbg=234 cterm=italic,bold
 hi Label guifg=#e92741 guibg=NONE guisp=NONE gui=bold ctermfg=1 ctermbg=NONE cterm=bold
 hi PMenuSel guifg=#000000 guibg=#3ec840 guisp=#3ec840 gui=bold ctermfg=230 ctermbg=77 cterm=bold
 hi Search guifg=#000000 guibg=#3ec840 guisp=#3ec840 gui=bold ctermfg=NONE ctermbg=77 cterm=bold
@@ -59,14 +61,14 @@ hi Comment guifg=#343c50 guibg=NONE guisp=NONE gui=NONE ctermfg=239 ctermbg=NONE
 hi Character guifg=#e1dc3f guibg=NONE guisp=NONE gui=NONE ctermfg=185 ctermbg=NONE cterm=NONE
 hi Float guifg=#418fdd guibg=NONE guisp=NONE gui=NONE ctermfg=68 ctermbg=NONE cterm=NONE
 hi Number guifg=#418fdd guibg=NONE guisp=NONE gui=NONE ctermfg=68 ctermbg=NONE cterm=NONE
-hi Boolean guifg=#ff9900 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
+hi Boolean guifg=#00ecd8 guibg=NONE guisp=NONE gui=NONE ctermfg=50 ctermbg=NONE cterm=NONE
 hi Operator guifg=#e92741 guibg=NONE guisp=NONE gui=bold ctermfg=160 ctermbg=NONE cterm=bold
 hi Title guifg=#e92741 guibg=NONE guisp=NONE gui=bold ctermfg=160 ctermbg=NONE cterm=bold
 hi CursorLine guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
 hi TabLineFill guifg=#192224 guibg=#1a1a1a guisp=#1a1a1a gui=bold ctermfg=235 ctermbg=234 cterm=bold
 hi Question guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
 hi WarningMsg guifg=#F9F9F9 guibg=#e1dc3f guisp=#e1dc3f gui=NONE ctermfg=248 ctermbg=88 cterm=NONE
-hi VisualNOS guifg=#192224 guibg=#F9F9FF guisp=#F9F9FF gui=underline ctermfg=235 ctermbg=189 cterm=underline
+hi VisualNOS guifg=#192224 guibg=#fdf7cd guisp=#fdf7cd gui=underline ctermfg=235 ctermbg=189 cterm=underline
 hi DiffDelete guifg=NONE guibg=#192224 guisp=#192224 gui=NONE ctermfg=NONE ctermbg=235 cterm=NONE
 hi ModeMsg guifg=#3ec840 guibg=NONE guisp=NONE gui=bold ctermfg=77 ctermbg=NONE cterm=bold
 hi CursorColumn guifg=NONE guibg=#222E30 guisp=#222E30 gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
@@ -74,7 +76,7 @@ hi Define guifg=#e92741 guibg=NONE guisp=NONE gui=bold ctermfg=160 ctermbg=NONE 
 hi Function guifg=#3ec840 guibg=NONE guisp=NONE gui=bold ctermfg=77 ctermbg=NONE cterm=bold
 hi FoldColumn guifg=#192224 guibg=#A1A6A8 guisp=#A1A6A8 gui=italic ctermfg=235 ctermbg=248 cterm=NONE
 hi PreProc guifg=#e92741 guibg=NONE guisp=NONE gui=bold ctermfg=160 ctermbg=NONE cterm=bold
-hi Visual guifg=#192224 guibg=#F9F9FF guisp=#F9F9FF gui=NONE ctermfg=235 ctermbg=189 cterm=NONE
+hi Visual guifg=#192224 guibg=#fdf7cd guisp=#fdf7cd gui=NONE ctermfg=235 ctermbg=189 cterm=NONE
 hi MoreMsg guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
 hi SpellCap guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermfg=189 ctermbg=235 cterm=underline
 hi VertSplit guifg=#3ec840 guibg=#1a1a1a guisp=#1a1a1a gui=bold ctermfg=235 ctermbg=66 cterm=bold
@@ -127,7 +129,7 @@ hi texTabularChar guifg=#e92741 guibg=NONE guisp=NONE gui=NONE ctermfg=160 cterm
 hi texCmdItem guifg=#e92741 guibg=NONE guisp=NONE gui=italic ctermfg=160 ctermbg=NONE cterm=italic
 hi texFilesArg guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
 hi texArg guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
-hi texPartArgTitle guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
+hi texPartArgTitle guifg=#fdf7cd guibg=NONE guisp=NONE gui=underline ctermfg=230 ctermbg=NONE cterm=underline
 hi texTitleArg guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
 
 " rust
@@ -167,3 +169,6 @@ hi yamlBlockMappingKey guifg=#e92741 guibg=NONE guisp=NONE gui=NONE ctermfg=160 
 
 " json
 hi jsoncBraces guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
+
+" html
+hi htmlTag guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
