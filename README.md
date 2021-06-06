@@ -9,7 +9,7 @@
 You can install using [vim-plug](https://github.com/junegunn/vim-plug):
 
 ```vim
-Plug 'blackbirdtheme/blackbird.vim'
+Plug 'blackbirdtheme/vim'
 ```
 
 Once you have it installed just set it as your theme:
