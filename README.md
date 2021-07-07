@@ -20,7 +20,7 @@ colorscheme blackbird
 
 ## 📷 Example
 
-![example](./images/example.jpg)
+![example](./images/example.png)
 
 ## 🤝 Polygot
 
